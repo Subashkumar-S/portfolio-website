@@ -16,7 +16,7 @@ const ContactForm = () => {
 
     try {
       await axios.post(
-        "https://portfolio-app-bay-one.vercel.app/send-message",
+        "https://portfolio-website-teal-nine.vercel.app/send-message",
         { name, email, message }
       );
       setSubmissionResult("success");
