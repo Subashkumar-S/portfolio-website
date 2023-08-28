@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState, useEffect, useCallback } from "react";
 import Button from "./Button";
 import axios from "axios";
 
@@ -9,33 +9,34 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submissionResult, setSubmissionResult] = useState("");
 
- 
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = useCallback(async (e) => {
     e.preventDefault();
 
     setIsSubmitting(true);
 
     try {
-      await axios.post('https://portfolio-app-bay-one.vercel.app/send-message', { name, email, message });
+      await axios.post(
+        "https://portfolio-app-bay-one.vercel.app/send-message",
+        { name, email, message }
+      );
       setSubmissionResult("success");
-      setName('');
-      setEmail('');
-      setMessage('');
+      setName("");
+      setEmail("");
+      setMessage("");
     } catch (error) {
       setSubmissionResult("error");
     }
 
     setIsSubmitting(false);
-  };
+  }, [name, email, message]);
 
   useEffect(() => {
-    const form = document.getElementById('contact-form');
-    form.addEventListener('submit', handleSubmit);
+    const form = document.getElementById("contact-form");
+    form.addEventListener("submit", handleSubmit);
     return () => {
-      form.removeEventListener('submit', handleSubmit);
+      form.removeEventListener("submit", handleSubmit);
     };
-  }, []);
+  }, [handleSubmit]);
   return (
     <div className=" flex flex-col  md:w-1/2 bg-black rounded-xl">
       <form
