@@ -1,0 +1,49 @@
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/profile.php?id=100016289860060",
+    "linkedin": "https://www.linkedin.com/in/subashkumar-s/",
+    "instagram": "https://www.instagram.com/__subashkumar__/"
+  },
+  "projects": [
+    {
+      "image": "images/whatsapp-clone.png",
+      "title": "WhatsApp Clone",
+      "description": "This project is a clone of the popular messaging application WhatsApp. It replicates the user interface and functionality of WhatsApp, including real-time messaging, voice and video calls using WebRTC, and contact management.",
+      "techstack": [
+        "React",
+        "Next.js",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "zegoCloud WebRTC"
+      ],
+      "github": "https://github.com/Subashkumar-S/realtime-chat-application"
+    },
+
+    {
+      "image": "images/nike-landing-page.png",
+      "title": "Nike Landing Page",
+      "description": "This website is a landing page for the Nike brand. It showcases a modern and stylish design that represents the brand's identity. The landing page may include various sections such as product highlights, brand information, and more.",
+      "techstack": ["React", "TailwindCSS"],
+      "github": "https://github.com/Subashkumar-S/CODSOFT-Task_1",
+      "demo": "https://nike-landing-page-f5616.web.app/"
+    },
+    {
+      "image": "images/online-resevation.webp",
+      "title": "Online Reservation System",
+      "description": "The Online Reservation System project, a JavaFX application for booking train tickets online. This project provides a user-friendly interface for users to log in, register, book train tickets, and check booking status.",
+      "techstack": ["Java", "JavaFX", "MySQL"],
+      "github": "https://github.com/Subashkumar-S/oibsip_task_1"
+    },
+    {
+      "image": "images/space-tourism.webp",
+      "title": "Space Tourism Website",
+      "description": "Explore celestial wonders with our Space Tourism website. Embark on extraordinary journeys to Mars, Europa, and beyond, guided by expert crew members well-versed in interplanetary travel. Our cutting-edge technology ensures safe and awe-inspiring adventures, making space tourism a reality like never before. Discover the universe's beauty with us.",
+      "techstack": ["React", "TailwindCSS"],
+      "github": "https://github.com/Subashkumar-S/space-tourism-website",
+      "demo": "https://space-tourism-website-f037b.web.app/"
+    }
+  ]
+}
