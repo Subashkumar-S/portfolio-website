@@ -21,6 +21,10 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 // API endpoint to handle message submissions
+
+app.get("/", (req, res) => {
+  res.json("hello");
+})
 app.post("/send-message", (req, res) => {
   const { name, email, message } = req.body;
 
