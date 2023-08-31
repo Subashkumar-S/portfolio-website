@@ -5,10 +5,9 @@ import homeImage from "../assets/home.webp";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode, SiCodecademy } from "react-icons/si";
 import Socials from "../components/Socials";
-import { useTheme } from "../components/ThemeContext";
 
-const Home = () => {
-  const { color } = useTheme();
+
+const Home = ({color}) => {
   const el = useRef(null);
 
   useEffect(() => {
@@ -37,15 +36,15 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="w-full pt-16 h-screen px-16 bg-dark-blue text-primary-white md:flex-row justify-around items-center flex flex-col"
+      className="w-full pt-16 min-h-screen px-16 bg-dark-blue text-primary-white md:flex-row justify-around items-center flex flex-col"
     >
       <div className="home-container flex flex-col gap-4 font-palanquin font-bold">
         <h4 className="text-4xl font-montserrat">Hello,</h4>
         <h2 className="text-5xl font-semibold ">
-          I'm <span className={`text-${color}`}>Subashkumar</span>.
+          I'm <span style={{ color }}>Subashkumar</span>.
         </h2>
         <p className="text-2xl">
-          I develop <span ref={el} className={`text-${color}`}></span>
+          I develop <span ref={el} style={{ color }}></span>
         </p>
         <div className="socials flex gap-8 text-2xl">
           {socialMedia.map((item, index) => (

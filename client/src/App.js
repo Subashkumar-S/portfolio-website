@@ -6,21 +6,26 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import ColorPanel from "./components/ColorPanel";
+import { useState } from "react";
 
 
 function App() {
+
+  const [color, setColor] = useState('#be185d'); 
+
+  const changeColor = newColor => {
+    setColor(newColor);
+  };
+
   return (
     <div className="App flex flex-col overflow-x-hidden">
-      
-      <Nav />
-      <ColorPanel />
-      <Home />
-      <About/>
-      <Projects />
-      <Contact />
+      <ColorPanel onColorChange={changeColor} />
+      <Nav color={color} />
+      <Home color={color}  />
+      <About color={color}/>
+      <Projects color={color} />
+      <Contact color={color} />
       <Footer />
-
-      
     </div>
   );
 }

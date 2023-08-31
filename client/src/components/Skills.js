@@ -13,7 +13,7 @@ import {
 import { SiNextdotjs, SiFirebase } from "react-icons/si";
 
 
-const Skills = () => {
+const Skills = ({color}) => {
   const iconData = [
     { icon: DiJava, title: "Java" },
     { icon: DiJavascript, title: "JavaScript" },
@@ -29,10 +29,10 @@ const Skills = () => {
 
   return (
     <div className="text-center w-full">
-      <h4 className="text-3xl mb-8 font-palanquin font-bold"> My <span className="text-pink">Skills</span> </h4>
+      <h4 className="text-3xl mb-8 font-palanquin font-bold"> My <span style={{color}}>Skills</span> </h4>
       <div className="flex flex-wrap gap-8 items-center justify-center">
         {iconData.map((item, index) => (
-          <Card key={index}>
+          <Card color={color} key={index}>
             <item.icon   className="text-4xl"/>
             <h4 className="mt-2 font-semibold">{item.title}</h4>
           </Card>

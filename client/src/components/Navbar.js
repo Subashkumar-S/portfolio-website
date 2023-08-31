@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { faBars, faHome, faMessage, faProjectDiagram, faTimes, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useTheme } from './ThemeContext';
 
 
-const App = () => {
+
+const Navbar = ({color}) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
@@ -21,7 +21,6 @@ const App = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const { color } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   let Links = [
     { name: "HOME", link: "#home" , icon: faHome},
@@ -32,11 +31,11 @@ const App = () => {
 
   return (
     <header className="fixed top-0 w-full text-primary-white max-md:text-active-white">
-      <nav className={` absolute w-full flex items-center justify-between flex-wrap px-6 md:px-16 py-4 ${isScrolled || isOpen ? 'backdrop-blur-xl bg-primary-white bg-opacity-20 transition-all duration-300 ease-in-out' : 'bg-transparent'}`}>
-        <a href="/" className="font-rubik text-4xl text-primary-white opacity-60 hover:opacity-100">
+      <nav className={` absolute w-full flex items-center justify-between flex-wrap px-6 md:px-16 py-4  ${isScrolled || isOpen ? 'backdrop-blur-xl bg-primary-white bg-opacity-20 transition-all duration-300 ease-in-out' : 'bg-transparent'}`}>
+        <a href="/" className="font-rubik text-4xl text-active-white opacity-60 hover:opacity-100">
           <h2>SK</h2>
         </a>
-        <div className="block md:hidden">
+        <div className="block md:hidden text-active-white opacity-60 hover:opacity-100">
           <button
             onClick={() => setIsOpen(!isOpen)}
             
@@ -59,7 +58,7 @@ const App = () => {
                 key={index}
                 href={item.link}
                 onClick={() => setIsOpen(false)}
-                className={`flex  items-center justify-center gap-2 hover:text-${color}`}
+                className={`flex  items-center justify-center gap-2 opacity-70 hover:opacity-100`}
               >
                 <FontAwesomeIcon icon={item.icon}/>
                 {item.name}
@@ -71,4 +70,4 @@ const App = () => {
     </header>
   );
 }
-export default App;
+export default Navbar;

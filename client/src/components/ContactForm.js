@@ -2,7 +2,7 @@ import { React, useState, useEffect, useCallback } from "react";
 import Button from "./Button";
 import axios from "axios";
 
-const ContactForm = () => {
+const ContactForm = ({color}) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -86,7 +86,7 @@ const ContactForm = () => {
             className="resize-none outline-none bg-primary-black text-primary-white rounded-md"
           />
         </div>
-        <Button type="submit" openInNewTab={false}>{isSubmitting ? "Sending..." : "Send"}</Button>
+        <Button color={color} type="submit" openInNewTab={false}>{isSubmitting ? "Sending..." : "Send"}</Button>
         {submissionResult === "success" && (
           <p className="success-message">Message sent successfully!</p>
         )}

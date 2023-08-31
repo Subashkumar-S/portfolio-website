@@ -9,7 +9,7 @@
   "projects": [
     {
       "image": "images/whatsapp-clone.png",
-      "title": "WhatsApp Clone",
+      "title": "Realtime Chat Application ",
       "description": "This project is a clone of the popular messaging application WhatsApp. It replicates the user interface and functionality of WhatsApp, including real-time messaging, voice and video calls using WebRTC, and contact management.",
       "techstack": [
         "React",

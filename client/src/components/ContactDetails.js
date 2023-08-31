@@ -37,8 +37,9 @@ const ContactDetails = () => {
             <div className='flex gap-4 '>
                 {
                     socialMedia.map((item, index) => (
-                        <a href={item.link}>
-                            <Socials key={index}>
+                        <a  key={index}
+                            href={item.link}>
+                            <Socials>
                             <item.icon className='text-xl' />
                             </Socials>
                         </a>

@@ -4,7 +4,7 @@ import React, { createContext, useContext, useState } from 'react';
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  const [color, setColor] = useState('pink'); // Default color
+  const [color, setColor] = useState('pink'); 
 
   const changeColor = (newColor) => {
     setColor(newColor);

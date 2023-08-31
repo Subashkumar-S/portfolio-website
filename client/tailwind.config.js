@@ -4,19 +4,19 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors : {
-      'primary-black': "#18181b",
-      'active-black' : "#09090b",
-      'primary-white' : "#cbd5e1",
-      'active-white' : "#ffffff",
-      'dark-blue' : "#020617",
-      'black': "#000000",
-      'pink': "#be185d",
-      'blue': "#4338ca",
-      'purple': "#481380",
-      'orange': "#dd7631",
-    },
     extend: {
+      colors : {
+        'primary-black': "#18181b",
+        'active-black' : "#09090b",
+        'primary-white' : "#9ca3af",
+        'active-white' : "#ffffff",
+        'dark-blue' : "#020617",
+        'black': "#000000",
+        'pink': "#be185d",
+        'blue': "#4338ca",
+        'purple': "#481380",
+        'orange': "#dd7631",
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
