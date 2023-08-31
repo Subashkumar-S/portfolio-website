@@ -22,7 +22,6 @@ const Home = ({color}) => {
       showCursor: true,
     });
 
-    // Destroying
     return () => {
       typed.destroy();
     };
