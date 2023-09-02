@@ -13,11 +13,11 @@ const About = ({color}) => {
         <img src={aboutImage} alt="person"  height={300} width={300}/>
         <div className='flex flex-col gap-4 lg:w-1/2  lg:md-40 flex-1'>
           <h3 className='text-4xl font-montserrat font-bold'><span style={{ color }}>About </span> me,</h3>
-          <p className='text-xl font-semi-bold font-palanquin'>
+          <p className='text-xl font-semi-bold font-palanquin text-gray'>
             Hi, I'm Subashkumar. I recently graduated with a Bachelor's degree in Information Technology
              from University College Of Engineering, BIT Campus, Tiruchirappalli. 
           </p>
-          <p className='text-xl font-semi-bold font-palanquin'>
+          <p className='text-xl font-semi-bold font-palanquin text-gray'>
             I'm a passionate and aspiring software developer with a curiosity for creating innovative
             solutions that make a difference. As someone who's constantly fascinated by the world of technology,
           </p>

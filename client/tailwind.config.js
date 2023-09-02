@@ -8,14 +8,18 @@ module.exports = {
       colors : {
         'primary-black': "#18181b",
         'active-black' : "#09090b",
-        'primary-white' : "#9ca3af",
+        'primary-white' : "#d1d5db",
         'active-white' : "#ffffff",
         'dark-blue' : "#020617",
         'black': "#000000",
+        'gray': "#9ca3af",
         'pink': "#be185d",
+        'red': "#c70039",
         'blue': "#4338ca",
         'purple': "#481380",
-        'orange': "#dd7631",
+        'orange': "#bc3908",
+        'malt': "#00909e",
+        'green': "#04A777",
       },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
@@ -27,7 +31,6 @@ module.exports = {
       },
       screens : {
         'sm' : '365px',
-        'md' : '768px',
         'lg' : '1024px',
       },
     },

@@ -11,7 +11,7 @@ import { useState } from "react";
 
 function App() {
 
-  const [color, setColor] = useState('#be185d'); 
+  const [color, setColor] = useState('#c70039'); 
 
   const changeColor = newColor => {
     setColor(newColor);

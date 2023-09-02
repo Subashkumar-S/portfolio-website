@@ -12,9 +12,9 @@ const Projects = ({color}) => {
             <img src={project.image} alt={project.title}  className=' h-[240px]   md:w-[600px] md:h-[500px]'/>
             <div className='flex flex-col gap-4 bg-active-black  text-primary-white -my-2 mx-2 lg:-ml-10 px-8 py-4 rounded-md'>
                 <h2 className='font-bold font-palanquin text-2xl' style={{color}}>{project.title}</h2>
-                <p className='text-base '>{project.description}</p>
+                <p className='text-base text-gray'>{project.description}</p>
                 <h4 className='font-semi-bold text-xl'>Tech stack :</h4>
-                <ul className='flex gap-4 flex-wrap'>
+                <ul className='flex gap-4 flex-wrap text-gray'>
                 {project.techstack.map((tech, techIndex) => (
                     <li key={techIndex}>{tech}</li>
                 ))}

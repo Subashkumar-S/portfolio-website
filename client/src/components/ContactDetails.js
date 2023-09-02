@@ -1,7 +1,6 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 import { SiGmail } from "react-icons/si";
-import { SlPhone } from "react-icons/sl";
 import Socials from './Socials';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,8 +26,8 @@ const ContactDetails = () => {
                 <p>subashs2232@gmail.com</p>
             </div>
             <div className='flex gap-4 items-center  my-4'>
-                <SlPhone />
-                <p>+91 9876543210</p>
+                <FaPhoneAlt />
+                <p>+91 85250 08209</p>
             </div>
             
         </div>

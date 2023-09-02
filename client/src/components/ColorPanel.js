@@ -17,7 +17,7 @@ const ColorPanel = ({onColorChange}) => {
 
   return (
     <div
-      className={`fixed top-1/2  z-10  flex ${open ? "right-0" : "-right-20"
+      className={`fixed top-1/2  z-10  flex ${open ? "right-0" : "-right-[120px]"
         } transition-all duration-700 ease-in-out`}
     >
       <button
@@ -26,10 +26,10 @@ const ColorPanel = ({onColorChange}) => {
       >
         <FiSettings className="animate-spin animate-spin-slow" />
       </button>
-      <div className="bg-active-white w-20 h-20 flex flex-wrap">
+      <div className="bg-active-white w-[120px] h-20 flex flex-wrap">
         <button
           className="w-8 h-8 bg-pink m-1 rounded-md"
-          onClick={() => changeColor("#be185d")}
+          onClick={() => changeColor("#c70039")}
         ></button>
         <button
           className="w-8 h-8 bg-blue m-1 rounded-md"
@@ -41,7 +41,15 @@ const ColorPanel = ({onColorChange}) => {
         ></button>
         <button
           className="w-8 h-8 bg-orange m-1 rounded-md"
-          onClick={() => changeColor("#dd7631")}
+          onClick={() => changeColor("#bc3908")}
+        ></button>
+        <button
+          className="w-8 h-8 bg-[#00909e] m-1 rounded-md"
+          onClick={() => changeColor("#00909e")}
+        ></button>
+        <button
+          className="w-8 h-8 bg-[#04A777] m-1 rounded-md"
+          onClick={() => changeColor("#04A777")}
         ></button>
       </div>
     </div>
