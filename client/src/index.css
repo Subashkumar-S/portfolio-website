@@ -10,14 +10,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-.animate-spin-slow {
-  animation: spin 2s linear infinite;
-}
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 #navbar{
   animation: translate .4s;
 }
@@ -33,4 +26,10 @@
  100%{
   transform:  translateY(0%);
  }
+}
+
+#partciles-component{
+  height: 100vw !important;
+  position: absolute;
+  width: 100% !important;
 }

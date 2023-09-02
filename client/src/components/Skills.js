@@ -28,9 +28,9 @@ const Skills = ({color}) => {
   ];
 
   return (
-    <div className="text-center w-full">
+    <div className="text-center w-full max-w-7xl">
       <h4 className="text-3xl mb-8 font-palanquin font-bold"> My <span style={{color}}>Skills</span> </h4>
-      <div className="flex flex-wrap gap-8 items-center justify-center">
+      <div className="flex flex-wrap gap-8 items-center justify-center ">
         {iconData.map((item, index) => (
           <Card color={color} key={index}>
             <item.icon   className="text-4xl"/>

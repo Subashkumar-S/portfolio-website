@@ -20,7 +20,7 @@ const Tools = ({color}) => {
   ];
 
   return (
-    <div className="text-center w-full">
+    <div className="text-center w-full max-w-7xl">
       <h4 className="text-3xl mb-8 font-palanquin font-bold"><span style={{color}}>Tools </span>I use, </h4>
       <div className="flex flex-wrap gap-8 items-center justify-center">
         {iconData.map((item, index) => (

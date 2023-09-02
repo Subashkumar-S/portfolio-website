@@ -35,11 +35,11 @@ const Navbar = ({ color }) => {
     { name: "CONTACT", link: "#contact", icon: faMessage },
   ];
 
-  return (
-    <header className="fixed top-0 w-full text-primary-white max-md:text-active-white">
+  return ( 
+    <header className="fixed top-0 w-full text-primary-white max-md:text-active-white z-50">
       <nav 
         id="navbar"
-        className={` absolute w-full flex items-center justify-between flex-wrap px-6 md:px-16 py-4  ${
+        className={`w-full flex items-center justify-between flex-wrap px-6 md:px-16 py-4  ${
           isScrolled || isOpen
             ? "bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-70 bg-[#ffffff14]"
             : "bg-transparent"

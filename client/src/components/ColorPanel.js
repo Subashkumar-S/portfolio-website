@@ -17,14 +17,14 @@ const ColorPanel = ({onColorChange}) => {
 
   return (
     <div
-      className={`fixed top-1/2  z-10  flex ${open ? "right-0" : "-right-[120px]"
+      className={`fixed top-1/2  z-50  flex ${open ? "right-0" : "-right-[120px]"
         } transition-all duration-700 ease-in-out`}
     >
       <button
         className="w-10 h-10 text-3xl bg-primary-white flex items-center justify-center "
         onClick={handleToggle}
       >
-        <FiSettings className="animate-spin animate-spin-slow" />
+        <FiSettings />
       </button>
       <div className="bg-active-white w-[120px] h-20 flex flex-wrap">
         <button
