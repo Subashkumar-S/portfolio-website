@@ -53,7 +53,7 @@ const Home = ({ color }) => {
                   Hi, I am <span style={{color}}>Subashkumar</span>.
                 </h1>
                 <h2 className="text-2xl md:text-4xl font-semibold">I'm a <span style={{color}}>Front End Developer</span>.</h2>
-                <p className="text-2xl font-medium">
+                <p className="text-xl md:text-2xl font-semibold">
                   I develop <span ref={el} style={{ color }}></span>
                 </p>
                 <div className="mt-4 flex items-center justify-center gap-x-6">

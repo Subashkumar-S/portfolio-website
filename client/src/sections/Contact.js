@@ -6,7 +6,7 @@ const Contact = ({ color }) => {
   return (
     <section
       id="contact"
-      className="w-full min-h-screen px-[10vw] lg:px-[20vw] py-[10vh] bg-dark-blue text-primary-white flex flex-col z-10"
+      className="w-full min-h-screen px-[10vw] lg:px-[20vw] py-[10vh] bg-[#100f10] text-primary-white flex flex-col z-10"
     >
       <h2 className="text-center text-4xl font-montserrat font-bold">
         <span style={{ color }}>Contact</span> Me

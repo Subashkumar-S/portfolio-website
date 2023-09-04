@@ -37,7 +37,7 @@ const ColorPanel = ({onColorChange}) => {
         ></button>
         <button
           className="w-8 h-8 bg-purple m-1 rounded-md"
-          onClick={() => changeColor("#481380")}
+          onClick={() => changeColor("#8739f9")}
         ></button>
         <button
           className="w-8 h-8 bg-orange m-1 rounded-md"

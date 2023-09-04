@@ -69,7 +69,7 @@ const Navbar = ({ color }) => {
           <div  className="text-lg  flex-1  font-palanquin font-semibold ">
             <ul className="flex flex-col md:flex-row items-center justify-center gap-8">
               {Links.map((item, index) => (
-                <li key={index}>
+                <li key={index} className="text-active-white hover:text-primary-white">
                   <a
                   
                   href={item.link}
@@ -78,7 +78,7 @@ const Navbar = ({ color }) => {
                 >
                   <FontAwesomeIcon
                     icon={item.icon}
-                    className="font-bold text-active-white w-4 h-4"
+                    className="font-bold w-4 h-4"
                   />
                   {item.name}
                 </a>

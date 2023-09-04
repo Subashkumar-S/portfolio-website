@@ -29,17 +29,17 @@ export default{
       "value": 0.5,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 4,
+      "value": 5,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 4,
         "size_min": 0.1,
         "sync": false
@@ -53,13 +53,13 @@ export default{
       "width": 1
     },
     "move": {
-      "enable": true,
+      "enable": false,
       "speed": 2,
       "direction": "none",
       "random": true,
       "straight": false,
       "out_mode": "out",
-      "bounce": true,
+      "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 600,
@@ -78,7 +78,7 @@ export default{
         "enable": false,
         "mode": "push"
       },
-      "resize": true
+      "resize": false
     },
     "modes": {
       "grab": {
@@ -106,5 +106,5 @@ export default{
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }
