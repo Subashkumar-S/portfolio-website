@@ -40,9 +40,7 @@ const Home = ({ color }) => {
       id="home"
       className="bg-active-black relative min-h-screen text-primary-white"
     >
-      {/* particles js component */}
       <ParticlesComponent />
-      {/* particles js component */}
 
       <div className="absolute w-full">
         <div className="relative isolate">

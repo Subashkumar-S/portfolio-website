@@ -22,6 +22,18 @@
       "github": "https://github.com/Subashkumar-S/realtime-chat-application",
       "demo": "https://whatsapp-clone-35f2d.firebaseapp.com/"
     },
+    {
+      "image": "images/Article-Summarizer.png",
+      "title": "Article Summarizer",
+      "description": "The AI Article Summarizer Web App is a groundbreaking project that combines the cutting-edge capabilities of RapidAPI's Article Extractor and Summarizer to simplify the process of digesting extensive written content. With its user-friendly, this web app offers a valuable solution for anyone seeking to optimize their reading and research workflows.",
+      "techstack": [
+        "React",
+        "Tailwind CSS",
+        "Rapid API"
+      ],
+      "github": "https://github.com/Subashkumar-S/AI_Summarizer",
+      "demo": "https://ai-summarizer-9e13c.web.app/"
+    },
 
     {
       "image": "images/nike-landing-page.png",
