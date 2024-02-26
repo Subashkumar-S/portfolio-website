@@ -18,8 +18,8 @@ const About = ({color}) => {
              from University College Of Engineering, BIT Campus, Tiruchirappalli. 
           </p>
           <p className='text-xl font-semi-bold font-palanquin text-gray'>
-            I'm a passionate and aspiring software developer with a curiosity for creating innovative
-            solutions that make a difference. As someone who's constantly fascinated by the world of technology,
+            I'm a passionate software developer with a curiosity for creating innovative
+            solutions that make a difference.
           </p>
           <div className='max-lg:text-center'>
             <Button color={color} downloadLink={resumeDownloadLink}>Resume</Button>

@@ -8,19 +8,37 @@
   },
   "projects": [
     {
-      "image": "images/whatsapp-clone.png",
-      "title": "Realtime Chat Application ",
-      "description": "This project is a clone of the popular messaging application WhatsApp. It replicates the user interface and functionality of WhatsApp, including real-time messaging, voice and video calls using WebRTC, and contact management.",
+      "image": "images/HooBank.png",
+      "title": "HooBank Application",
+      "description": "Hoobank is a sleek and user-friendly landing page for a modern banking service. With its intuitive design and informative layout, users can easily navigate through various sections, including potential clients and details about offered services.",
       "techstack": [
         "React",
-        "Next.js",
-        "Express",
-        "PostgreSQL",
-        "Prisma",
-        "zegoCloud WebRTC"
+        "TailwindCSS"
       ],
-      "github": "https://github.com/Subashkumar-S/realtime-chat-application",
-      "demo": "https://whatsapp-clone-35f2d.firebaseapp.com/"
+      "github": "https://github.com/Subashkumar-S/hoobank_react_app",
+      "demo": "https://hoobank-e5acf.web.app/"
+    },
+    {
+      "image": "images/Gericht_restaurant.png",
+      "title": "Gericht Restaurant Application",
+      "description": "Landing page for Gericht Restaurant. Features captivating visuals, user-friendly menu, booking integration, and key information. Showcases restaurant's identity and enhances user experience.",
+      "techstack": [
+        "React",
+        "CSS"
+      ],
+      "github": "https://github.com/Subashkumar-S/Gericht_Restaurant",
+      "demo": "https://gericht-restaurant-cc1d5.web.app/"
+    },
+    {
+      "image": "images/GPT-3.png",
+      "title": "GPT-3 Application",
+      "description": "GPT-3 Application, an innovative showcase of AI's potential. Dive into real-world case studies unveiling GPT-3's versatility. Explore detailed insights into what GPT-3 is and its transformative impact. Join us on a journey of discovery at the intersection of technology and creativity, where possibilities are limitless",
+      "techstack": [
+        "React",
+        "CSS"
+      ],
+      "github": "https://github.com/Subashkumar-S/GPT-3",
+      "demo": "https://gpt-3-ae5e9.web.app/"
     },
     {
       "image": "images/Article-Summarizer.png",
