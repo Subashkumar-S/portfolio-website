@@ -38,7 +38,7 @@ const ContactForm = ({color}) => {
     };
   }, [handleSubmit]);
   return (
-    <div className=" flex flex-col  md:w-1/2 bg-black rounded-xl">
+    <div className=" flex flex-col w-full  md:w-1/2 bg-black rounded-xl">
       <form
         id="contact-form"
         action="submit"
