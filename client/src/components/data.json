@@ -6,75 +6,84 @@
     "linkedin": "https://www.linkedin.com/in/subashkumar-s/",
     "instagram": "https://www.instagram.com/__subashkumar__/"
   },
-  "projects": [
-    {
-      "image": "images/HooBank.png",
-      "title": "HooBank Application",
-      "description": "Hoobank is a sleek and user-friendly landing page for a modern banking service. With its intuitive design and informative layout, users can easily navigate through various sections, including potential clients and details about offered services.",
-      "techstack": [
-        "React",
-        "TailwindCSS"
-      ],
-      "github": "https://github.com/Subashkumar-S/hoobank_react_app",
-      "demo": "https://hoobank-e5acf.web.app/"
-    },
-    {
-      "image": "images/Gericht_restaurant.png",
-      "title": "Gericht Restaurant Application",
-      "description": "Landing page for Gericht Restaurant. Features captivating visuals, user-friendly menu, booking integration, and key information. Showcases restaurant's identity and enhances user experience.",
-      "techstack": [
-        "React",
-        "CSS"
-      ],
-      "github": "https://github.com/Subashkumar-S/Gericht_Restaurant",
-      "demo": "https://gericht-restaurant-cc1d5.web.app/"
-    },
-    {
-      "image": "images/GPT-3.png",
-      "title": "GPT-3 Application",
-      "description": "GPT-3 Application, an innovative showcase of AI's potential. Dive into real-world case studies unveiling GPT-3's versatility. Explore detailed insights into what GPT-3 is and its transformative impact. Join us on a journey of discovery at the intersection of technology and creativity, where possibilities are limitless",
-      "techstack": [
-        "React",
-        "CSS"
-      ],
-      "github": "https://github.com/Subashkumar-S/GPT-3",
-      "demo": "https://gpt-3-ae5e9.web.app/"
-    },
-    {
-      "image": "images/Article-Summarizer.png",
-      "title": "Article Summarizer",
-      "description": "The AI Article Summarizer Web App is a groundbreaking project that combines the cutting-edge capabilities of RapidAPI's Article Extractor and Summarizer to simplify the process of digesting extensive written content. With its user-friendly, this web app offers a valuable solution for anyone seeking to optimize their reading and research workflows.",
-      "techstack": [
-        "React",
-        "Tailwind CSS",
-        "Rapid API"
-      ],
-      "github": "https://github.com/Subashkumar-S/AI_Summarizer",
-      "demo": "https://ai-summarizer-9e13c.web.app/"
-    },
+  "projects": {
+    "frontendMentorChallenges": [
+      {
+        "image": "images/space-tourism.webp",
+        "title": "Space Tourism Website",
+        "description": "Explore celestial wonders with our Space Tourism website. Embark on extraordinary journeys to Mars, Europa, and beyond, guided by expert crew members well-versed in interplanetary travel. Our cutting-edge technology ensures safe and awe-inspiring adventures, making space tourism a reality like never before. Discover the universe's beauty with us.",
+        "techstack": ["React", "TailwindCSS"],
+        "github": "https://www.frontendmentor.io/solutions/space-tourism-website-using-reactjs-and-tailwind-css-H5g9-Q_7zU",
+        "demo": "https://space-tourism-website-f037b.web.app/"
+      },
+      {
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/llcq9eiv3ney5tkxgdtu.jpg",
+        "title": "Todo App",
+        "description": "Users can view the app layout optimized for their device's screen size and see hover states for interactive elements. They can add new todos, mark them as complete, and delete them. Filtering options allow users to view all, active, or completed todos, and they can clear all completed todos. Additionally, users can toggle between light and dark mode for different visual preferences.",
+        "techstack": ["React", "SCSS", "Redux"],
+        "github": "https://www.frontendmentor.io/solutions/todo-app-using-react-and-redux-_lAXBtyNSU",
+        "demo": "https://todo-app-26af6.web.app/"
+      },
+      {
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/fnzuxyyl1wwyscqgaiyc.jpg",
+        "title": "Rock Paper Scissors Game",
+        "description": "Users can play Rock, Paper, Scissors against the computer with an interface optimized for different screen sizes. Interactive elements have hover and focus states. The score state persists even after refreshing the browser. Additionally, users can play an extended version, Rock, Paper, Scissors, Lizard, Spock, against the computer.",
+        "techstack": ["React", "SCSS", "Redux"],
+        "github": "https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-game-using-react-ans-scss-wxRJIlh_jB",
+        "demo": "https://rock-paper-scissors-81353.web.app/"
+      }
+    ],
 
-    {
-      "image": "images/nike-landing-page.png",
-      "title": "Nike Landing Page",
-      "description": "This website is a landing page for the Nike brand. It showcases a modern and stylish design that represents the brand's identity. The landing page may include various sections such as product highlights, brand information, and more.",
-      "techstack": ["React", "TailwindCSS"],
-      "github": "https://github.com/Subashkumar-S/CODSOFT-Task_1",
-      "demo": "https://nike-landing-page-f5616.web.app/"
-    },
-    {
-      "image": "images/online-resevation.webp",
-      "title": "Online Reservation System",
-      "description": "The Online Reservation System project, a JavaFX application for booking train tickets online. This project provides a user-friendly interface for users to log in, register, book train tickets, and check booking status.",
-      "techstack": ["Java", "JavaFX", "MySQL"],
-      "github": "https://github.com/Subashkumar-S/oibsip_task_1"
-    },
-    {
-      "image": "images/space-tourism.webp",
-      "title": "Space Tourism Website",
-      "description": "Explore celestial wonders with our Space Tourism website. Embark on extraordinary journeys to Mars, Europa, and beyond, guided by expert crew members well-versed in interplanetary travel. Our cutting-edge technology ensures safe and awe-inspiring adventures, making space tourism a reality like never before. Discover the universe's beauty with us.",
-      "techstack": ["React", "TailwindCSS"],
-      "github": "https://github.com/Subashkumar-S/space-tourism-website",
-      "demo": "https://space-tourism-website-f037b.web.app/"
-    }
-  ]
+    "frontendApp": [
+      {
+        "image": "images/HooBank.png",
+        "title": "HooBank Application",
+        "description": "Hoobank is a sleek and user-friendly landing page for a modern banking service. With its intuitive design and informative layout, users can easily navigate through various sections, including potential clients and details about offered services.",
+        "techstack": ["React", "TailwindCSS"],
+        "github": "https://github.com/Subashkumar-S/hoobank_react_app",
+        "demo": "https://hoobank-e5acf.web.app/"
+      },
+      {
+        "image": "images/Gericht_restaurant.png",
+        "title": "Gericht Restaurant Application",
+        "description": "Landing page for Gericht Restaurant. Features captivating visuals, user-friendly menu, booking integration, and key information. Showcases restaurant's identity and enhances user experience.",
+        "techstack": ["React", "CSS"],
+        "github": "https://github.com/Subashkumar-S/Gericht_Restaurant",
+        "demo": "https://gericht-restaurant-cc1d5.web.app/"
+      },
+      {
+        "image": "images/GPT-3.png",
+        "title": "GPT-3 Application",
+        "description": "GPT-3 Application, an innovative showcase of AI's potential. Dive into real-world case studies unveiling GPT-3's versatility. Explore detailed insights into what GPT-3 is and its transformative impact. Join us on a journey of discovery at the intersection of technology and creativity, where possibilities are limitless",
+        "techstack": ["React", "CSS"],
+        "github": "https://github.com/Subashkumar-S/GPT-3",
+        "demo": "https://gpt-3-ae5e9.web.app/"
+      },
+      {
+        "image": "images/nike-landing-page.png",
+        "title": "Nike Landing Page",
+        "description": "This website is a landing page for the Nike brand. It showcases a modern and stylish design that represents the brand's identity. The landing page may include various sections such as product highlights, brand information, and more.",
+        "techstack": ["React", "TailwindCSS"],
+        "github": "https://github.com/Subashkumar-S/CODSOFT-Task_1",
+        "demo": "https://nike-landing-page-f5616.web.app/"
+      },
+      {
+        "image": "images/Article-Summarizer.png",
+        "title": "Article Summarizer",
+        "description": "The AI Article Summarizer Web App is a groundbreaking project that combines the cutting-edge capabilities of RapidAPI's Article Extractor and Summarizer to simplify the process of digesting extensive written content. With its user-friendly, this web app offers a valuable solution for anyone seeking to optimize their reading and research workflows.",
+        "techstack": ["React", "Tailwind CSS", "Rapid API"],
+        "github": "https://github.com/Subashkumar-S/AI_Summarizer",
+        "demo": "https://ai-summarizer-9e13c.web.app/"
+      }
+    ],
+    "javaProjects": [
+      {
+        "image": "images/online-resevation.webp",
+        "title": "Online Reservation System",
+        "description": "The Online Reservation System project, a JavaFX application for booking train tickets online. This project provides a user-friendly interface for users to log in, register, book train tickets, and check booking status.",
+        "techstack": ["Java", "JavaFX", "MySQL"],
+        "github": "https://github.com/Subashkumar-S/oibsip_task_1"
+      }
+    ]
+  }
 }
